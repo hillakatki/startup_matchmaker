@@ -117,7 +117,7 @@ li:hover {
 .content {
   width: 100%;
   box-sizing: border-box;
-  background-color: #c6c6c6;
+  background-color: #fff;
 }
 
 .tagline {
@@ -129,6 +129,7 @@ li:hover {
   text-align: center;
   height: 70px;
   padding-top: 20px;
+  background-color: #c6c6c6;
 }
 
 del {
@@ -177,8 +178,8 @@ ins {
 
 .button {
   width: 100%;
-  background-color: #fdf731;
   margin-top: 30px;
+  background-color: #c6c6c6;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Oswald';
@@ -191,7 +192,31 @@ ins {
   border-radius: 5px;
 }
 
+.profile {
+  background-color: #fdf731;
 
+}
+
+.column-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.column {
+  width: 33%;
+  float: left;
+  background-color: #fff;
+  padding: 30px;
+  border-right: 1px solid #ddd;
+
+}
+
+.column-header {
+  font-family: 'Merriweather';
+  font-weight: 800;
+  font-size: 24px;
+  padding-bottom: 10px;
+}
 
 .categories li {
   font-size: 24px;
