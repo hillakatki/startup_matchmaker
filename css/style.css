@@ -1,0 +1,252 @@
+/*
+Project Name: Relaxr Blog
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.fl {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  min-width: 1050px;
+
+}
+
+.navigation {
+  width: 100%;
+  height: 70px;
+  box-sizing: border-box;
+  background-color: #000;
+  border-bottom: 5px solid #fdf731;
+
+}
+
+.logo {
+  width: 40%;
+  box-sizing: border-box;
+  float: left;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Merriweather';
+  font-weight: 800;
+  padding-left: 50px;
+  padding-top: 15px;
+  color: #fdf731;
+}
+
+a { text-decoration: none;}
+
+nav {
+  width: 60%;
+  box-sizing: border-box;
+  float: right;
+  padding-right: 50px;
+}
+
+li {
+  text-align: center;
+  height: 65px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  margin-left: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+  float: right;
+  box-sizing: border-box;
+}
+
+.developers-designers {
+  font-family: 'Oswald';
+  font-weight: 800;
+  text-transform: uppercase;
+
+}
+
+.active-nav {
+  background-color: #666;
+}
+
+.content {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #c6c6c6;
+}
+
+.tagline {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  color: #000;
+  text-align: center;
+  height: 70px;
+  padding-top: 20px;
+}
+
+del {
+  color: #666;
+}
+
+ins {
+  text-decoration: none;
+  border-bottom: 2px solid #fdf731;
+
+}
+
+.hero {
+  background-image: url("../images/coworking.jpg");
+  height:600px;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.meet-your-match {
+  display: block;
+  width: 250px;
+  background-color: #fff;
+  padding: 25px;
+  float: right;
+}
+
+.meet-your-match-header {
+  font-family: 'Source Sans Pro';
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.body-copy {
+  font-family: 'Source Sans Pro';
+  font-size: 20px;
+  font-weight: 400;
+}
+
+aside {
+  width: 350px;
+  float: right;
+  background-color: #f0efef;
+}
+
+
+
+h3 {
+  font-weight: 800;
+  font-size: 32px;
+  color: #033048;
+  padding-bottom: 20px;
+}
+
+.categories li {
+  font-size: 24px;
+  font-weight: 300;
+  color: #033048;
+  float: none;
+  margin: 0px;
+  padding: 0px;
+  height: 34px;
+}
+
+.about {
+  padding-top: 40px;
+  padding-right: 100px;
+}
+
+.about p {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 300;
+  color: #033048;
+}
+
+.about a {
+  font-size: 22px;
+  font-weight: 600;
+  color: #033048;
+}
+
+.ad-unit { padding-top: 50px;}
+
+
+.sign-up {
+  display: block;
+  width: 1200px;
+  height: 120px;
+  background-color: #f9e42e;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.sign-up-button {
+  display: block;
+  font-weight: 800;
+  font-size: 24px;
+  border-radius: 5px;
+  width: 325px;
+  height: 60px;
+  background-color: #033048;
+  text-align: center;
+  text-decoration: none;
+  color: #FFF;
+  margin-left: 425px;
+  padding: 17px;
+ 
+}
+
+footer {
+  width: 100%;
+  text-align: left;
+  background-color: #121212;
+  height: 70px;
+}
+
+.copyright {
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  color: #FFF;
+  font-size: 20px;
+  margin-left: 50px;
+  padding-top: 25px;
+}
+
+
+
