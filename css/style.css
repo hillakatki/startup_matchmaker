@@ -99,6 +99,10 @@ li {
   box-sizing: border-box;
 }
 
+li:hover {
+  color: #fdf731;
+}
+
 .developers-designers {
   font-family: 'Oswald';
   font-weight: 800;
