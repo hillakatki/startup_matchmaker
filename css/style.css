@@ -218,61 +218,7 @@ ins {
   padding-bottom: 10px;
 }
 
-.categories li {
-  font-size: 24px;
-  font-weight: 300;
-  color: #033048;
-  float: none;
-  margin: 0px;
-  padding: 0px;
-  height: 34px;
-}
 
-.about {
-  padding-top: 40px;
-  padding-right: 100px;
-}
-
-.about p {
-  font-size: 22px;
-  line-height: 26px;
-  font-weight: 300;
-  color: #033048;
-}
-
-.about a {
-  font-size: 22px;
-  font-weight: 600;
-  color: #033048;
-}
-
-.ad-unit { padding-top: 50px;}
-
-
-.sign-up {
-  display: block;
-  width: 1200px;
-  height: 120px;
-  background-color: #f9e42e;
-  text-align: center;
-  padding-top: 30px;
-}
-
-.sign-up-button {
-  display: block;
-  font-weight: 800;
-  font-size: 24px;
-  border-radius: 5px;
-  width: 325px;
-  height: 60px;
-  background-color: #033048;
-  text-align: center;
-  text-decoration: none;
-  color: #FFF;
-  margin-left: 425px;
-  padding: 17px;
- 
-}
 
 footer {
   width: 100%;
