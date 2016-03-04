@@ -43,8 +43,8 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-  min-width: 1050px;
-  max-width: 1600px;
+/*  min-width: 1050px;
+  max-width: 1600px;*/
 
 }
 
@@ -82,6 +82,7 @@ nav {
   box-sizing: border-box;
   float: right;
   padding-right: 50px;
+
 }
 
 li {
@@ -103,6 +104,55 @@ li:hover {
   color: #fdf731;
 }
 
+.active-nav {
+  background-color: #666;
+}
+
+.hamburger {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  float: right;
+  display: none;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+.fixins {
+  width: 30px;
+  height: 4px;
+  margin: 4px 0px;
+  background-color: #fff;
+}
+
+.mobile-nav {
+  width: 320px;
+  height:320px;
+  background-color: #000;
+  float: right;
+  display: none;
+}
+
+.mobile-nav-item {
+  text-align: left;
+  height: 65px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Source Sans Pro';
+  font-weight: 400;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 20px;
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  border-bottom: 1px #fff solid;
+}
+
+.last-item {
+  border-bottom: 0px;
+}
+
 .developers-designers {
   font-family: 'Oswald';
   font-weight: 800;
@@ -110,9 +160,46 @@ li:hover {
 
 }
 
-.active-nav {
-  background-color: #666;
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .logo {
+    width: 33%;
+  }
+
+  nav {
+    width: 67%;
+  }
+
+  li {
+    font-size: 1em;
+  }
+
+  h1 {
+    font-size: 1.2em;
+    padding-top: 20px;
+  }
 }
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  nav {
+    display: none;
+  }
+
+  .logo {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    padding-top: 20px;
+  }
+
+  .hamburger {
+    display: inline-block;
+  }
+}
+
+
+
 
 .content {
   width: 100%;
@@ -130,6 +217,20 @@ li:hover {
   height: 70px;
   padding-top: 20px;
   background-color: #c6c6c6;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .tagline {
+    font-size: 1.2em;
+    padding-top: 24px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .tagline {
+    font-size: 1em;
+    padding-top: 28px;
+  }
 }
 
 del {
@@ -176,6 +277,23 @@ ins {
 
 }
 
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .meet-your-match {
+    width: 85%;
+    padding: 20px;
+    margin-top: 350px;
+
+  }
+  .meet-your-match-header {
+    font-size: 1.2em;
+  }
+
+  .body-copy {
+    font-size: 1em;
+    line-height: 1.25em;
+  }
+}
+
 .button {
   width: 100%;
   margin-top: 30px;
@@ -218,7 +336,24 @@ ins {
   padding-bottom: 10px;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .column {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+  }
 
+  .last {
+    border-bottom: 0px;
+  }
+  
+  .column-header {
+    font-size: 1.2em;
+  }
+
+  .button {
+    font-size: 1.2em;
+  }
+}
 
 footer {
   width: 100%;
@@ -236,5 +371,11 @@ footer {
   padding-top: 25px;
 }
 
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .copyright {
+    font-size: .8em;
+  }
+
+}
 
 
